@@ -14,7 +14,7 @@ class CustomCell: UITableViewCell {
     
     private lazy var postimageView = {
         let imageView = UIImageView()
-        imageView.backgroundColor = .lightGray
+        imageView.backgroundColor = #colorLiteral(red: 0.9647058845, green: 0.9647058845, blue: 0.9647058845, alpha: 1)
         imageView.layer.cornerRadius = 8
         return imageView
     }()

@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.separatorStyle = .singleLine
         tableView.allowsSelection = false
+        tableView.separatorInset = UIEdgeInsets(top: 0, left: 80, bottom: 0, right: 0)
         return tableView
     }()
     
