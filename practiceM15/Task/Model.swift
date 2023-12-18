@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import UIKit
+
+struct PostModel {
+    let postImage: UIImage
+    let postTitle: String
+    let postText: String
+    let postTimeAfter: String
+}
