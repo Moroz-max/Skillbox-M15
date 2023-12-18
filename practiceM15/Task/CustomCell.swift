@@ -65,7 +65,6 @@ class CustomCell: UITableViewCell {
     }
     
     private func setupConstraints() {
-        //ImageView
         postimageView.snp.makeConstraints { make in
             make.height.equalTo(50)
             make.width.equalTo(50)
