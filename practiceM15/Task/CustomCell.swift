@@ -51,7 +51,6 @@ class CustomCell: UITableViewCell {
         contentView.addSubview(postTimeAfter)
         
         setupConstraints()
-        
     }
     
     required init?(coder: NSCoder) {
@@ -88,9 +87,6 @@ class CustomCell: UITableViewCell {
             make.bottom.equalTo(contentView.snp.bottom).offset(-16)
             make.right.equalTo(contentView.snp.right).offset(-16)
         }
-        
     }
-    
-    
     
 }
